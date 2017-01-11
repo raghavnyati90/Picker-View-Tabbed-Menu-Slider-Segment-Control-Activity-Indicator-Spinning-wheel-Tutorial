@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  assignment4
 //
-//  Created by Yajush Sharma on 10/20/16.
+//  Created by Raghav Nyati on 10/20/16.
 //  Copyright © 2016 Raghav Nyati. All rights reserved.
 //
 

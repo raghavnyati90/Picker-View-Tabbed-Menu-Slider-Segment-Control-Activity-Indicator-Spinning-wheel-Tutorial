@@ -15,6 +15,8 @@
 		199C130A1DB9942F0011DA94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199C13081DB9942F0011DA94 /* LaunchScreen.storyboard */; };
 		199C13151DB9942F0011DA94 /* assignment4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C13141DB9942F0011DA94 /* assignment4Tests.swift */; };
 		199C13201DB9942F0011DA94 /* assignment4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C131F1DB9942F0011DA94 /* assignment4UITests.swift */; };
+		199C132E1DB9996F0011DA94 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199C132D1DB9996F0011DA94 /* ThirdViewController.swift */; };
+		199C13301DB99CBC0011DA94 /* Food.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199C132F1DB99CBC0011DA94 /* Food.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		199C131B1DB9942F0011DA94 /* assignment4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assignment4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		199C131F1DB9942F0011DA94 /* assignment4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assignment4UITests.swift; sourceTree = "<group>"; };
 		199C13211DB9942F0011DA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199C132D1DB9996F0011DA94 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		199C132F1DB99CBC0011DA94 /* Food.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Food.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				199C13061DB9942F0011DA94 /* Assets.xcassets */,
 				199C13081DB9942F0011DA94 /* LaunchScreen.storyboard */,
 				199C130B1DB9942F0011DA94 /* Info.plist */,
+				199C132D1DB9996F0011DA94 /* ThirdViewController.swift */,
+				199C132F1DB99CBC0011DA94 /* Food.plist */,
 			);
 			path = assignment4;
 			sourceTree = "<group>";
@@ -237,6 +243,7 @@
 			files = (
 				199C130A1DB9942F0011DA94 /* LaunchScreen.storyboard in Resources */,
 				199C13071DB9942F0011DA94 /* Assets.xcassets in Resources */,
+				199C13301DB99CBC0011DA94 /* Food.plist in Resources */,
 				199C13051DB9942F0011DA94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				199C13021DB9942F0011DA94 /* SecondViewController.swift in Sources */,
 				199C12FE1DB9942F0011DA94 /* AppDelegate.swift in Sources */,
+				199C132E1DB9996F0011DA94 /* ThirdViewController.swift in Sources */,
 				199C13001DB9942F0011DA94 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +517,7 @@
 				199C13261DB9942F0011DA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199C13271DB9942F0011DA94 /* Build configuration list for PBXNativeTarget "assignment4Tests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				199C13291DB9942F0011DA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199C132A1DB9942F0011DA94 /* Build configuration list for PBXNativeTarget "assignment4UITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				199C132C1DB9942F0011DA94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
